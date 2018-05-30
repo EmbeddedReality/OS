@@ -1,0 +1,11 @@
+#define OS_VERSION_MAJOR @OS_VERSION_MAJOR@
+static constexpr unsigned short osVersionMajor = @OS_VERSION_MAJOR@;
+
+#define OS_VERSION_MINOR @OS_VERSION_MINOR@
+static constexpr unsigned short osVersionMinor = @OS_VERSION_MINOR@;
+
+#define OS_VERSION_PATCH @OS_VERSION_PATCH@
+static constexpr unsigned short osVersionPatch = @OS_VERSION_PATCH@;
+
+#define OS_VERSION	"@OS_VERSION_MAJOR@.@OS_VERSION_MINOR@.@OS_VERSION_PATCH@"
+static constexpr const char * osVersion = "@OS_VERSION_MAJOR@.@OS_VERSION_MINOR@.@OS_VERSION_PATCH@";
